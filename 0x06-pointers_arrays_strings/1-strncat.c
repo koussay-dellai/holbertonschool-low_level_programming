@@ -21,7 +21,7 @@ int _strlen(char *s)
  * _strncat - function to concatnate strings
  *
  * @dest: destination for concatnation
- *
+ * @n: byte size .
  * @src: source of string
  *
  * Return: dest
