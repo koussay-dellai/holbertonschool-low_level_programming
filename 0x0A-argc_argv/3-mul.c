@@ -13,6 +13,8 @@ if (argc < 3)
 printf("Error\n");
 return (1);
 }
+else
+{
 int i;
 int mul = 0;
 for (i = 1 ; i < argc ; i++)
@@ -20,5 +22,6 @@ for (i = 1 ; i < argc ; i++)
 mul = atoi(argv[i]) * atoi(argv[i + 1]);
 printf("%d\n", mul);
 return (0);
+}
 }
 }
