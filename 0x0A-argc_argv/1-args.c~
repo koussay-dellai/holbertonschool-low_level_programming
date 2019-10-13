@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+/**
+ *main - program to print number of arguments
+ *@argc: number of arguments
+ *@argv: pointer to arrayr of strings
+ *Return: always success
+ */
+int main(int argc, char **argv__attribute__((unused)))
+{
+printf("%d\n", argc);
+return (0);
+}
