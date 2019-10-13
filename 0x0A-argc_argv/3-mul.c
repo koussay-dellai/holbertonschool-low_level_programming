@@ -15,13 +15,7 @@ return (1);
 }
 else
 {
-int i;
-int mul = 0;
-for (i = 1 ; i < argc ; i++)
-{
-mul = atoi(argv[i]) * atoi(argv[i + 1]);
-printf("%d\n", mul);
+printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 return (0);
-}
 }
 }
