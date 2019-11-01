@@ -8,7 +8,7 @@
 
 size_t list_len(const list_t *h)
 {
-unsigned int i;
+unsigned int i = 0;
 const list_t *next_pointer = NULL;
 next_pointer = h;
 while (next_pointer != NULL)
