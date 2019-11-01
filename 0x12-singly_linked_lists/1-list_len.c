@@ -11,9 +11,10 @@ size_t list_len(const list_t *h)
 unsigned int i;
 const list_t *next_pointer = NULL;
 next_pointer = h;
-while ((next_pointer->next) != NULL)
+while (next_pointer != NULL)
 {
 i++;
+next_pointer = next_pointer->next;
 }
 return (i);
 }
