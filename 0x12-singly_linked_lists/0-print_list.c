@@ -17,7 +17,10 @@ if ((current_node->str) == NULL)
 {
 printf("[0] (nil)\n");
 }
-printf("[%d] %s\n ", current_node->len, current_node->str);
+else
+{
+printf("[%d] %s\n", current_node->len, current_node->str);
+}
 current_node = current_node->next;
 count++;
 }
