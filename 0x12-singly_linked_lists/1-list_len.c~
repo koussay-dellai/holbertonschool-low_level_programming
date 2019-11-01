@@ -1,0 +1,8 @@
+#include "lists.h"
+
+/**
+ *list_len - return the number of elemnts
+ *@h: pointer the list
+ *Return: number of elements
+ */
+
