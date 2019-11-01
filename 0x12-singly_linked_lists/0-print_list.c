@@ -17,7 +17,7 @@ if ((current_node->str) == NULL)
 {
 printf("[0] (nil)\n");
 }
-printf("%s %d\n ", current_node->str, current_node->len);
+printf("[%d] %s\n ", current_node->len, current_node->str);
 current_node = current_node->next;
 count++;
 }
