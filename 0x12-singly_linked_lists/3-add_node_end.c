@@ -16,6 +16,10 @@ if (new == NULL)
 {
 return (NULL);
 }
+while (str[count] != '\0')
+{
+count++;
+}
 new->str = strdup(str);
 new->next = NULL;
 if (*head == NULL)
@@ -29,8 +33,8 @@ current = *head;
 while (current->next != NULL)
 {
 current = current->next;
-count++;
 }
+new->next = NULL;
 current->next = new;
 new->len = count;
 return (*head);
