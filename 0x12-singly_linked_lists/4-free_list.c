@@ -7,11 +7,11 @@
 void free_list(list_t *head)
 {
 list_t *temp;
-temp = head;
 while (head != NULL)
 {
-temp = head->next;
-free(head);
-head = temp->next;
+temp = head;
+head = head->next;
+free(temp->str);
+free(temp);
 }
 }
