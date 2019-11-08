@@ -1,0 +1,16 @@
+#include "holberton.h"
+/**
+ *print_binary - print the binary representation of a number
+ *@n: the number to convert to binary
+ *Return: nothing
+ */
+
+void print_binary(unsigned long int n)
+{
+while (n > 0)
+{
+pr n & 1);
+n = n >> 1;
+ i++;
+}
+}
