@@ -7,10 +7,7 @@
 
 void print_binary(unsigned long int n)
 {
-while (n > 0)
-{
-pr n & 1);
-n = n >> 1;
- i++;
-}
+if (n > 1) 
+print_binary(n>>1); 
+printf("%ld", n & 1);
 }
