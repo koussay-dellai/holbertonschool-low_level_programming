@@ -1,16 +1,16 @@
 #include "holberton.h"
 /**
- *_pow - power 
+ *_pow - power
  *@y: unsigned int 2;
  *@x: unsigned ower index
  *Return: always success
  */
-unsigned int _pow(unsigned int y , unsigned int x)
+unsigned int _pow(unsigned int y, unsigned int x)
 {
 unsigned int power = 1;
 unsigned int i;
 for (i = 0 ; i < x ; i++)
-power *= y ;
+power *= y;
 return (power);
 }
 
@@ -38,12 +38,11 @@ len++;
 }
 len--;
 i = 0;
-while ( b[i] )
+while (b[i])
 {
-
 if (b[i] == '1')
 {
-sum += _pow (2, len - i );
+sum += _pow(2, len - i);
 }
 i++;
 }
